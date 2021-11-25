@@ -27,12 +27,13 @@ nav{
 }
 
 
-/* Barre de navigation */
+/* Caroussel*/
 
 .carousel{background-color: rgb(187, 173, 173);
     height: 200px;
 }
 
+/* Titre*/
 .Titre{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -48,6 +49,8 @@ article{
     height: 200px; 
     width: 33%;   
 }
+
+/* Section formulaire */
 
 .section2{
     padding: 50px;
