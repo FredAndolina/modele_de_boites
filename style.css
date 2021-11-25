@@ -25,6 +25,10 @@ nav{
     height: 40px;
     line-height: 40px;
 }
+
+
+/* Barre de navigation */
+
 .carousel{background-color: rgb(187, 173, 173);
     height: 200px;
 }
@@ -37,7 +41,7 @@ nav{
 
 
    
-
+/* Section article */
 article{ 
     display: inline-block;
     background-color:rgb(187, 173, 173);
