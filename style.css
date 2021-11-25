@@ -1,16 +1,22 @@
+/* Barre de navigation */
 ul {
-    display: flex;
+    
     color: white; 
     list-style-type: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
-.fellows{
+li:hover{
     background-color: grey;
+    margin: 0;
+    }
+li{
+    height: 40px;
 }
 
 ul li {
+    display: inline-block;
     padding: 0 6px;
 }
 
@@ -26,16 +32,43 @@ nav{
 .Titre{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 40px 0;
-    
-}
-.article1{
-    display: flex;
-    justify-content: space-around;
+    margin: 40px 0;  
 }
 
-.article{
+
+   
+
+article{ 
+    display: inline-block;
     background-color:rgb(187, 173, 173);
     height: 200px; 
-    width: 380px;
+    width: 33%;   
+}
+
+.section2{
+    padding: 50px;
+}
+
+
+
+.formulaire{
+    width: 800px;
+    height: 300px;
+    padding: 50px , 200px;
+    margin-left: 220px;
+   
+}
+.formulaire1{
+    margin: 5px 0;
+}
+
+textarea, input{
+    width: 800px;
+    height: 30px;
+   font-size: 22px;
+font-family: 'Courier New', Courier, monospace;
+}
+
+textarea{
+    height: 200px;
 }
