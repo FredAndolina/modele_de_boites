@@ -1,0 +1,41 @@
+ul {
+    display: flex;
+    color: white; 
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.fellows{
+    background-color: grey;
+}
+
+ul li {
+    padding: 0 6px;
+}
+
+nav{
+    background-color: black;
+    height: 40px;
+    line-height: 40px;
+}
+.carousel{background-color: rgb(187, 173, 173);
+    height: 200px;
+}
+
+.Titre{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 40px 0;
+    
+}
+.article1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.article{
+    background-color:rgb(187, 173, 173);
+    height: 200px; 
+    width: 380px;
+}
