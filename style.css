@@ -4,9 +4,10 @@ ul {
     color: white; 
     list-style-type: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
 }
 
+.titre{font-size:12px;
+}
 li:hover{
     background-color: rgb(187, 173, 173);
     color: black;
