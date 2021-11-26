@@ -8,9 +8,13 @@ ul {
 }
 
 li:hover{
-    background-color: grey;
+    background-color: rgb(187, 173, 173);
+    color: black;
     margin: 0;
+    border: 1px solid;
+    border-color: black;
     }
+
 li{
     height: 40px;
 }
